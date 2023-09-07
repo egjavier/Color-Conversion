@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB and HEX Conversion</title>
+  <link rel="stylesheet" href="colorConversion.css">
+</head>
+<body>
+  <div class="container" id="title">RGB and HEX Conversion</div>
+  <div class="container">
+    <div class="container" id="rgbToHex">
+      <p>RGB to HEX</p>
+      <input id="inputRgb" placeholder="(RRR, GGG, BBB)">
+      <p class="result" id="hex">H E X</p>
+      <button id="toHexBtn">Convert</button>
+      <button class="reset" id="resetToHex">Reset</button>
+    </div>
+  
+    <div class="container" id="hexToRgb">
+      <p>HEX to RGB</p>
+      <input id="inputHex" placeholder="000000">
+      <p class="result" id="rgb">R G B</p>
+      <button id="toRgbBtn">Convert</button>
+      <button class="reset" id="resetToRgb">Reset</button>
+    </div>
+  </div>
+
+  <script src="colorConversion.js"></script>
+</body>
+</html>
